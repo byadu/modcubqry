@@ -4,7 +4,7 @@
 \alias{analyze}
 \title{analyze}
 \usage{
-analyze(input, output, session, id, M, D, uid)
+analyze(input, output, session, M, D, uid)
 }
 \arguments{
 \item{input}{is shiny input variable}
@@ -13,13 +13,13 @@ analyze(input, output, session, id, M, D, uid)
 
 \item{session}{is shiny session variable}
 
-\item{id}{is the caller id}
-
 \item{M}{is the meta data connection structure}
 
 \item{D}{is the data connection structure}
 
 \item{uid}{is the logged in user id}
+
+\item{id}{is the caller id}
 }
 \description{
 the query module
